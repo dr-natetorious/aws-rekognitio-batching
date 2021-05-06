@@ -1,5 +1,5 @@
 from typing import List
-from infra.landing_zone import ILandingZone
+from infra.interfaces import ILandingZone
 from aws_cdk import (
     core,
     aws_backup as backup,
